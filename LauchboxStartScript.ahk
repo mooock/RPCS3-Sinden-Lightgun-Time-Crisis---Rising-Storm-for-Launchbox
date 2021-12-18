@@ -33,7 +33,7 @@ if (flag := !flag) {
 	Gui Cursor:+Owner%hwnd%
 	DllCall("ShowCursor", Int,0)
 } else {
-  DllCall("ShowCursor", Int,1)
+	DllCall("ShowCursor", Int,1)
 }
 Return
 
