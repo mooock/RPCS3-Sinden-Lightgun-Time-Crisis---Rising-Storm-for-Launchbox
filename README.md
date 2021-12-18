@@ -1,4 +1,4 @@
-# RPCS3-Sinden-Lightgun-Time-Crisis---Rising-Storm-for-Launchbox
+# RPCS3 Sinden Lightgun Time Crisis - Rising Storm for Launchbox
 
 ##Description 
 This script is made for use with launchbox, Emulator settings autohotkey start script.
@@ -13,3 +13,32 @@ This script is made for use with launchbox, Emulator settings autohotkey start s
 ##Requirements
 Launchbox
 Creating a New Emulator for RPCS3 (as it bind the AHK scrip for each emulator)
+
+##Custom Emulator Settings
+  Start games in fullscreen mode: false
+
+Video:
+  Write Color Buffers: true
+
+Input/Output:
+  Keyboard: "Null"
+  Mouse: Basic
+  Camera: Fake
+  Camera type: PS Eye
+  Camera flip: None
+  Camera ID: Default
+  Move: Mouse
+  Buzz emulated controller: "Null"
+  Turntable emulated controller: "Null"
+  GHLtar emulated controller: "Null"
+  
+Miscellaneous:
+  Exit RPCS3 when process finishes: true
+  Start games in fullscreen mode: false
+
+##Custom Controller Settings
+  Handler: Keyboard
+  Device: Keyboard
+  Config:
+    Start: N
+    Select: B
